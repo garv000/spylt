@@ -7,7 +7,7 @@
 }
 
 :root {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   overflow-x: hidden;
 }
 
@@ -34,12 +34,12 @@
   --font-mono: var(--font-geist-mono);
 } */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 /* body {
   background: var(--background);
@@ -55,7 +55,6 @@ body {
   color: #523122;
   font-family: "Antonio", sans-serif;
   overflow-x: hidden;
-  scroll-behavior:smooth;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE 10+ */
 }
