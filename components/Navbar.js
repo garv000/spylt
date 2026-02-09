@@ -13,9 +13,11 @@ const Navbar = () => {
           height={20}
         />
       </Link>
-      <button className="bg-white text-xs font-bold px-6 py-3 rounded-full hover:bg-light-brown duration-500 transition uppercase">
-        Find in stores
-      </button>
+      <Link href="https://www.amazon.com/stores/SPYLTMilk/page/F713DB51-AB33-4FA2-9C1B-DC2BA7783E08?lp_asin=B0CS2D278X&store_ref=bl_ast_dp_brandLogo_sto" target="_blank">
+        <button className="bg-white text-xs font-bold px-6 py-3 rounded-full hover:bg-light-brown duration-500 transition uppercase">
+          Find in stores
+        </button>
+      </Link>
     </nav>
   );
 };

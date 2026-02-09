@@ -5,6 +5,7 @@ import { useGSAP } from "@gsap/react";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import SplitText from "gsap/SplitText";
 gsap.registerPlugin(ScrollTrigger, SplitText);
+import Link from "next/link";
 
 const Hero = () => {
   useGSAP(() => {
@@ -85,9 +86,11 @@ const Hero = () => {
             Live life to the fullest with SPYLT: Shatter boredom and embrace
             your inner kid with every deliciously smooth chug.
           </h2>
-          <button className="mt-8 bg-light-brown rounded-full text-sm px-8 py-3 font-bold hover:bg-mid-brown hover:text-[#fce1cd] duration-500 transition uppercase">
-            Chug a SPYLT
-          </button>
+          <Link href="https://www.amazon.com/stores/SPYLTMilk/page/F713DB51-AB33-4FA2-9C1B-DC2BA7783E08?lp_asin=B0CS2D278X&store_ref=bl_ast_dp_brandLogo_sto" target="_blank">
+            <button className="mt-8 bg-light-brown rounded-full text-sm px-8 py-3 font-bold hover:bg-mid-brown hover:text-[#fce1cd] duration-500 transition uppercase">
+              Chug a SPYLT
+            </button>
+          </Link>
         </div>
       </div>
     </section>
