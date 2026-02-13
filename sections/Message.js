@@ -65,7 +65,7 @@ const Message = () => {
     const msgSplit2 = SplitText.create(".message-text2", { type: "words" });
     const msgPara = SplitText.create(".message-para", {
       type: "words, lines",
-      mask: "lines",
+      mask: "words",
     });
 
     const tl = gsap.timeline({
@@ -135,9 +135,9 @@ const Message = () => {
         your future with every gulp of Perfect Protein
       </div>
 
-      <p className="message-para mt-16 max-w-sm text-center text-milk font-paragraph text-sm">
+      <div className="message-para mt-16 max-w-sm text-center text-milk font-paragraph text-sm">
         Rev up your rebel spirit and feed the adventure of life with SPYLT where you`re one chug away from epic nostalgia and fearless fun
-      </p>
+      </div>
     </section>
   );
 };
