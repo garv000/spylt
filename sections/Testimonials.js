@@ -50,7 +50,7 @@ const Testimonials = () => {
       },
     });
     t2.from(".vd-card", {
-      yPercent: 150,
+      yPercent: 200,
       stagger: 0.2,
       ease: "power1.inOut",
     });
