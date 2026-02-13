@@ -135,7 +135,7 @@ const Message = () => {
         your future with every gulp of Perfect Protein
       </div>
 
-      <p className="message-para mt-16 max-w-xs text-center text-milk font-paragraph text-sm">
+      <p className="message-para mt-16 max-w-sm text-center text-milk font-paragraph text-sm">
         Rev up your rebel spirit and feed the adventure of life with SPYLT where you`re one chug away from epic nostalgia and fearless fun
       </p>
     </section>
