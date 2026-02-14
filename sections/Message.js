@@ -136,7 +136,8 @@ const Message = () => {
       </div>
 
       <div className="message-para mt-16 max-w-sm text-center text-milk font-paragraph text-sm">
-        Rev up your rebel spirit and feed the adventure of life with SPYLT where you`re one chug away from epic nostalgia and fearless fun
+        Rev up your rebel spirit and feed the adventure of life with SPYLT
+         {/* where you`re one chug away from epic nostalgia and fearless fun */}
       </div>
     </section>
   );
